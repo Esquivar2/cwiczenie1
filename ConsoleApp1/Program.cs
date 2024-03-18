@@ -8,9 +8,9 @@ static double calculateAverage (int[] tab)
 {
     if(tab == null || tab.Length == 0) return 0;
     int sum = 0;
-    foreach( int i in tab )
+    foreach( int j in tab )
     {
-        sum += i;
+        sum += j;
     }
 
     return sum / tab.Length;
