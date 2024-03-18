@@ -32,3 +32,6 @@ static int findMax(int[] tab)
     }
     return max;
 }
+
+int max = findMax(new int[] { 2, 5, 7, 3, 4, 1, 7 });
+Console.WriteLine(max);
